@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        {% if username %}
+            <h1>Привет, {{ username }}!</h1>
+        {% else %}
+            <h1> аноним</h1>
+        {% endif %}
+        {{ main_part }}
+
+    </body>
+</html>
